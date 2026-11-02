@@ -1,0 +1,159 @@
+header{
+    background-color: rgb(104, 20, 41);
+    height: 200px;
+    padding: 20px 0;
+    text-align: left;
+}
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(15, 219, 219);
+    font-size: 22px;
+    font-weight: bold;  
+}
+
+.nav a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+.caixa img{
+    width: 350px;
+    height: 200px;
+    margin-left: 300px;
+}
+
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0 ;
+}
+h1 img{
+    width: 500;
+}
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.servicos li:hover{
+    color: rgb(116, 0, 0);
+    border: 5px solid blue;
+}
+
+
+.servicos li:active{
+    background-color: blue;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.servicos img{
+    width: 200px;
+}
+footer{
+text-align: center;
+background-color:rgb(104, 20, 41);
+padding: 40px 0;
+}
+footer img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+footer p{
+color:white;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form label, form p  {
+    display: block;
+    font-size: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.enviar{
+    width: 40%;
+    padding: 15px;
+    background-color: brown;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    transition: 2s all;
+    animation: repetir 1s linear infinite;
+}
+.enviar:hover{
+    background-color: chartreuse;
+    transform: scale(1.2);
+    transform: rotate(360deg);
+}
+
+@keyframes repetir {
+   0%{
+        transform: scale(1.0);
+        background-color: blueviolet;
+   }
+   50%{
+        transform: scale(1.2);
+        background-color: chartreuse;
+        transform: skewX(50%);
+   } 
+}
+
+img{
+    width: 300px;
+}
